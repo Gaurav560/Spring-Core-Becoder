@@ -6512,3 +6512,18 @@ java.lang.StringIndexOutOfBoundsException: begin 0, end 4, length 3
 
 !ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-03 16:42:51.832
 !MESSAGE Classpath changed for project: Spring_core
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-03 17:22:24.253
+!MESSAGE Classpath changed for project: Spring_core
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-03 17:23:06.503
+!MESSAGE Classpath changed for project: Spring_core
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-03 17:26:03.047
+!MESSAGE Classpath changed for project: Spring_core
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-03 17:35:49.365
+!MESSAGE Classpath changed for project: Spring_core
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-03 17:37:33.898
+!MESSAGE Classpath changed for project: Spring_core
