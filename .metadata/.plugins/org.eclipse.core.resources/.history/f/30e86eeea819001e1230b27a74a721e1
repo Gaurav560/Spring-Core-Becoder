@@ -17,7 +17,7 @@ xmlns:p="http://www.springframework.org/schema/p"
 <bean  name="st1" class="com.ineuron.ai.Ci.Student">
 	
 	
-<constructor-arg value="1" type="int" />
+<constructor-arg value="1" />
 <constructor-arg value="Gaurav"/>
 <constructor-arg value="Gaya"/>
 <constructor-arg >

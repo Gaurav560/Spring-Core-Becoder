@@ -1,35 +1,10 @@
 package com.ineuron.ai.Ci;
 
-import java.util.List;
-
 public class Student {
 
 	private String name;
 	private int id;
 	private String address;
-	private List<String> course;
-	private Certificate certificate;
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	public Student(String name, int id, String address, List<String> course, Certificate certificate) {
-		super();
-		this.name = name;
-		this.id = id;
-		this.address = address;
-		this.course = course;
-		this.certificate = certificate;
-	}
-
-	
-	
-	
 	public Student(String name, int id) {
 		System.out.println(
 				"String, int");
@@ -52,16 +27,11 @@ public class Student {
 
 	}
 
-
-
-
+	
 	@Override
 	public String toString() {
-		return "Student [name=" + name + ", id=" + id + ", address=" + address + ", course=" + course + ", certificate="
-				+ certificate + "]";
+		return "Student [name=" + name + ", id=" + id + ", address=" + address + "]";
 	}
-
-	
 	
 	
 
