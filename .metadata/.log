@@ -8268,3 +8268,75 @@ org.eclipse.core.runtime.AssertionFailedException: null argument:
 
 !ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-04 19:30:12.990
 !MESSAGE Classpath changed for project: Spring_AutoWiring
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-04 19:31:59.300
+!MESSAGE Classpath changed for project: Spring_AutoWiring
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-04 19:31:59.302
+!MESSAGE Boot project ADDED: Spring_AutoWiring
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-04 19:32:00.462
+!MESSAGE Classpath changed for project: Spring_AutoWiring
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-04 19:33:29.703
+!MESSAGE Classpath changed for project: Spring_AutoWiring
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-04 19:33:58.677
+!MESSAGE Classpath changed for project: Spring_AutoWiring
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-04 19:34:19.645
+!MESSAGE Classpath changed for project: Spring_AutoWiring
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-04 19:35:20.176
+!MESSAGE Classpath changed for project: Spring_AutoWiring
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-04 19:35:30.943
+!MESSAGE Classpath changed for project: Spring_AutoWiring
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-04 19:36:21.640
+!MESSAGE Classpath changed for project: Spring_AutoWiring
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-04 19:39:48.616
+!MESSAGE Classpath changed for project: Spring_AutoWiring
+
+!ENTRY org.eclipse.lsp4e 2 0 2023-07-04 19:45:03.691
+!MESSAGE Timeout waiting for data to generate LS hover
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:65)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-04 19:49:26.187
+!MESSAGE Classpath changed for project: Spring_AutoWiring
+
+!ENTRY org.eclipse.lsp4e 2 0 2023-07-04 19:51:18.082
+!MESSAGE Javadoc unavailable. Failed to obtain it.
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:386)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2096)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:65)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.eclipse.lsp4e 2 0 2023-07-04 19:51:25.072
+!MESSAGE Javadoc unavailable. Failed to obtain it.
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:386)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2096)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:65)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-04 19:51:59.631
+!MESSAGE Classpath changed for project: Spring_AutoWiring
