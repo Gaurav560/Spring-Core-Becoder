@@ -8262,3 +8262,9 @@ org.eclipse.core.runtime.AssertionFailedException: null argument:
 
 !ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-04 17:34:18.330
 !MESSAGE Classpath changed for project: Spring_Lifecycle
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-04 19:30:12.588
+!MESSAGE Classpath changed for project: Spring_AutoWiring
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-04 19:30:12.990
+!MESSAGE Classpath changed for project: Spring_AutoWiring
