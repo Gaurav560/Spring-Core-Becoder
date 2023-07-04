@@ -11,7 +11,7 @@ public class App {
 		ApplicationContext context=new ClassPathXmlApplicationContext("com/ineuron/ai/Ci/config.xml");
 		Student student=context.getBean("st1",Student.class);
 		System.out.println(student);
-		System.out.println(student.);
+	
 
 	}
 
