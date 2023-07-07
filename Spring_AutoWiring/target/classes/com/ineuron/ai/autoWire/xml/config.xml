@@ -7,15 +7,23 @@
 
 	<!-- bean definitions here -->
 
-	<bean name="address" class="com.ineuron.ai.autoWire.xml.Address">
+	<bean name="addss" class="com.ineuron.ai.autoWire.xml.Address">
 		<property name="city" value="pune" />
 		<property name="state" value="maharashtra" />
 	</bean>
 	
 	
-	<bean name="std" class="com.ineuron.ai.autoWire.xml.Student" autowire="byName">
 	
+	<bean name="address" class="com.ineuron.ai.autoWire.xml.Address">
+		<property name="city" value="dvdd" />
+		<property name="state" value="macsscs" />
+	</bean> 
+<!-- 	
+	<bean name="std" class="com.ineuron.ai.autoWire.xml.Student" autowire="byName"> -->
 	
+<!-- 	<bean name="std" class="com.ineuron.ai.autoWire.xml.Student" autowire="byType"> -->
+	
+	<bean name="std" class="com.ineuron.ai.autoWire.xml.Student" autowire="constructor">
 	
 	
 	</bean>
