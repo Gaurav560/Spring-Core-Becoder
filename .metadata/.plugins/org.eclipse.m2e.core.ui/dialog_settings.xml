@@ -2,6 +2,7 @@
 <section name="Workbench">
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="C:\Users\Gaurav\Documents\workspace-spring-tool-suite-4-4.19.0.RELEASE\Spring_Lifecycle\src\main\java\com\ineuron\ai\impl\config.xml"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
@@ -31,6 +32,8 @@
 			<item value="com.ineuron.ai"/>
 		</list>
 		<list key="artifactId">
+			<item value="Spring_AutoWiring"/>
+			<item value="Spring_Lifecycle"/>
 			<item value="Spring_core"/>
 		</list>
 		<list key="projectNameTemplate">
