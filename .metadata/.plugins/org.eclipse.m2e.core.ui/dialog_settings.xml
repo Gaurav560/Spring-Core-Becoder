@@ -71,4 +71,17 @@
 	</section>
 	<section name="org.eclipse.m2e.core.pom.dependencies">
 	</section>
+	<section name="wizardPage">
+		<list key="groupId">
+			<item value="Main_Java_Assignment"/>
+		</list>
+		<list key="name">
+		</list>
+		<list key="artifactId">
+			<item value="Main_Java_Assignment"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
 </section>
