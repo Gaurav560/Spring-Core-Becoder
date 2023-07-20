@@ -11,5 +11,7 @@ public class HelloWorldController {
 	//get http method
 	@GetMapping("/hello")
 	public String helloWorld() {return "HelloWorld";}
+	@GetMapping("/hello1")
+	public String helloWorld1() {return "HelloWorl1";}
 	
 }
