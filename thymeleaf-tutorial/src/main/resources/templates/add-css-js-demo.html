@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="ISO-8859-1">
+<title>Add Css and Js to Thymeleaf</title>
+<link th:href="@{/css/main.css}" rel="stylesheet">
+<script type="text/javascript" th:src="@{/js/actions.js}"></script>
+</head>
+<body>
+<h2>
+	<p>
+	
+		
+		this is the moment<strong> for which i have been waiting on </strong> .
+		
+	</p>
+	<button type="button" th:onclick="demo()">Show Alert</button>
+	
+	
+</h2>
+</body>
+</html>
