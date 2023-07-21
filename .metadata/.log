@@ -1148,3 +1148,24 @@ java.lang.ClassNotFoundException: org.springframework.ide.vscode.commons.protoco
 
 !ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-22 02:19:20.311
 !MESSAGE Classpath changed for project: thymeleaf-tutorial
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-22 02:27:31.758
+!MESSAGE Classpath changed for project: thymeleaf-tutorial
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-22 02:29:21.884
+!MESSAGE Classpath changed for project: thymeleaf-tutorial
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-22 02:41:53.955
+!MESSAGE Classpath changed for project: thymeleaf-tutorial
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-22 02:45:51.073
+!MESSAGE Classpath changed for project: thymeleaf-tutorial
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-22 02:55:59.228
+!MESSAGE Classpath changed for project: thymeleaf-tutorial
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-22 02:57:47.515
+!MESSAGE Classpath changed for project: thymeleaf-tutorial
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-07-22 02:59:57.893
+!MESSAGE Classpath changed for project: thymeleaf-tutorial

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Switch case in thymeleaf</title>
+</head>
+<body>
+<div class="container">
+	<div class="row">
+		<h1>Thymeleaf Switch Case with Demo </h1>
+		<h4 th:utext="${user.userName}"></h4>
+		<div th:switch="${user.role}">
+			<p th:case="'ADMIN'">user is a admin</p>
+			<p th:case="'MANAGER'">user is a MANAGER</p>
+			<p th:case="'GUEST'">user is a GUEST</p>
+			
+			<!--FOR DEFAULT CASE-->
+				<p th:case="*">User is some other thing </p>
+		</div>
+		
+		
+		
+		
+	</div>
+	
+	
+</div>
+</body>
+</html>
