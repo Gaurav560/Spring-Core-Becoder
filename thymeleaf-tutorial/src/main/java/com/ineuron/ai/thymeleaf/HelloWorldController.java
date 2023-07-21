@@ -19,5 +19,11 @@ public class HelloWorldController {
 		return "add-css-js-demo";
 	}
 	
+	
+	@GetMapping("/bootStrap")
+	public String bootStrap() {
+		return "add-bootstrap";
+	}
+	
 
 }
