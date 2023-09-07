@@ -3,6 +3,7 @@ package com.telusko.springboot;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.ModelAttribute;
+import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 
@@ -13,7 +14,7 @@ public class HomeController {
 
 	@ModelAttribute
 	public void modelData(Model m) {
-		m.addAttribute("name","Aliens");
+		m.addAttribute("name","AlLLLL");
 	}
 	@RequestMapping("/")
 	public String home() {
@@ -30,7 +31,7 @@ public class HomeController {
 		m.addAttribute("ans",ans);
 		return "result	";
 	}
-	@RequestMapping("addAlien")
+	@PostMapping("addAlien")
 	public String addAlien(@ModelAttribute("a1") Aliens a1) {
 		
 		return "result2";
