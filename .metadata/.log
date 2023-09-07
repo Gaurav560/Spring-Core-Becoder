@@ -6556,3 +6556,15 @@ Caused by: java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Meth
 
 !ENTRY org.springframework.tooling.boot.ls 1 0 2023-09-07 19:38:39.252
 !MESSAGE Classpath changed for project: springmvcdemo
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-09-07 19:46:24.493
+!MESSAGE Classpath changed for project: springmvcdemo
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-09-07 19:48:08.448
+!MESSAGE Classpath changed for project: springmvcdemo
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-09-07 19:55:25.568
+!MESSAGE Classpath changed for project: springmvcdemo
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-09-07 19:57:56.824
+!MESSAGE Classpath changed for project: springmvcdemo

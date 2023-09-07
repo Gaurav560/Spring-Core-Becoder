@@ -2,6 +2,7 @@ package com.telusko.springboot;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 
@@ -10,6 +11,10 @@ import com.telusko.springboot.model.Aliens;
 @Controller
 public class HomeController {
 
+	@ModelAttribute
+	public void modelData(Model m) {
+		m.addAttribute("name","Aliens");
+	}
 	@RequestMapping("/")
 	public String home() {
 		return "index";
@@ -26,11 +31,8 @@ public class HomeController {
 		return "result	";
 	}
 	@RequestMapping("addAlien")
-	public String addAlien(@RequestParam("aid")int aid,@RequestParam("aname") String aname,Model model) {
-		Aliens aliens=new Aliens();
-		aliens.setAid(aid);
-		aliens.setAname(aname);
-		model.addAttribute("aliens",aliens);
+	public String addAlien(@ModelAttribute("a1") Aliens a1) {
+		
 		return "result2";
 	}
 }
