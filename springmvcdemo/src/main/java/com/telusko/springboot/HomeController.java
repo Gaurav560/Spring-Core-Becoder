@@ -5,6 +5,8 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 
+import com.telusko.springboot.model.Aliens;
+
 @Controller
 public class HomeController {
 
@@ -21,6 +23,14 @@ public class HomeController {
 	//	mView.addObject("ans", ans);
 		//return mView;
 		m.addAttribute("ans",ans);
-		return "result";
+		return "result	";
+	}
+	@RequestMapping("addAlien")
+	public String addAlien(@RequestParam("aid")int aid,@RequestParam("aname") String aname,Model model) {
+		Aliens aliens=new Aliens();
+		aliens.setAid(aid);
+		aliens.setAname(aname);
+		model.addAttribute("aliens",aliens);
+		return "result2";
 	}
 }

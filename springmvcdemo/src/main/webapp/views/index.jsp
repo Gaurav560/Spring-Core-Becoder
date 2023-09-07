@@ -7,10 +7,10 @@
 <title>gaurav sharma here</title>
 </head>
 <body>
-<form action="add">
-Enter 1st number <input type="text" name="num1"/>
+<form action="addAlien">
+Enter your id <input type="text" name="aid"/>
 <br>
-Enter 2nd number <input type="text" name="num2"/>
+Enter your name <input type="text" name="aname"/>
 <br>
 <input type="submit">
 </form>
